@@ -1,0 +1,89 @@
+newmtl Solid
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 0
+
+newmtl 27_WATERFALL.1001
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 0
+map_Kd 27 WATERFALL.1001.jpg
+
+newmtl 27_WATERFALL.1002
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 0
+map_Kd 27 WATERFALL.1002.jpg
+
+newmtl 27_WATERFALL.1003
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 0
+map_Kd 27 WATERFALL.1003.jpg
+
+newmtl 27_WATERFALL.1004
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 0
+map_Kd 27 WATERFALL.1004.jpg
+
+newmtl 27_WATERFALL.1005
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 0
+map_Kd 27 WATERFALL.1005.jpg
+
+newmtl 27_WATERFALL.1006
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 0
+map_Kd 27 WATERFALL.1006.jpg
+
+newmtl 27_WATERFALL.1007
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 0
+map_Kd 27 WATERFALL.1007.jpg
+
+newmtl 27_WATERFALL.1008
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 0
+map_Kd 27 WATERFALL.1008.jpg
+
+newmtl 27_WATERFALL.1009
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 0
+map_Kd 27 WATERFALL.1009.jpg
+

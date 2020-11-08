@@ -1,0 +1,872 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 05.12.2017 11:03:14
+
+newmtl White
+	Ns 43.2193
+	Ni 1.5000
+	d 0.9000
+	Tr 0.1000
+	Tf 0.9000 0.9000 0.9000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Orange
+	Ns 43.2193
+	Ni 1.5000
+	d 0.8000
+	Tr 0.2000
+	Tf 0.8000 0.8000 0.8000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.9608 0.7255 0.2588
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Color_I04
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1961 0.1961 1.0000
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Translucent_Glass_Gray
+	Ns 43.2193
+	Ni 1.5000
+	d 0.3700
+	Tr 0.6300
+	Tf 0.3700 0.3700 0.3700 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1490 0.1490 0.1490
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Brick_Red
+	Ns 43.2193
+	Ni 1.5000
+	d 0.8900
+	Tr 0.1100
+	Tf 0.8900 0.8900 0.8900 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7373 0.1137 0.2196
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl FrontColor
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Color_002
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7765 0.7765 0.7765
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Gray8
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6667 0.0667 0.0824
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Color_D05
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 0.7490 0.0000
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Color_B03
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 0.5490 0.3961
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Color_B04
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 0.3961 0.1961
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl _Charcoal_1
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2196 0.2196 0.2196
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl _WhiteSmoke_
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.9608 0.9608 0.9608
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Granite_Dark_Gray
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2706 0.2667 0.2667
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Granite_Dark_Gray.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Granite_Dark_Gray.jpg
+
+newmtl _5
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1216 0.1255 0.0627
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\_5.png
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\_5.png
+
+newmtl Vegetation_HoneyLocust
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5647 0.6275 0.2314
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Vegetation_HoneyLocust.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Vegetation_HoneyLocust.jpg
+
+newmtl Vegetation_Bark_Maple
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8941 0.7804 0.6078
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Vegetation_Bark_Maple.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Vegetation_Bark_Maple.jpg
+
+newmtl _Black_
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl _Silver_
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7529 0.7529 0.7529
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Color_008
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1176 0.1176 0.1176
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Color_004
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5569 0.5569 0.5569
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Color_007
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2275 0.2275 0.2275
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Color_003
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6667 0.6667 0.6667
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Metal_Aluminum_Corrugated
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6392 0.6157 0.6157
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Metal_Aluminum_Corrugated.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Metal_Aluminum_Corrugated.jpg
+
+newmtl Color_006
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.3373 0.3373 0.3373
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Color_005
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.4471 0.4471 0.4471
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl stam_smal
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2667 0.2627 0.1961
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\stam_smal.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\stam_smal.jpg
+
+newmtl bladeren
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2863 0.3922 0.1294
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\bladeren.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\bladeren.jpg
+
+newmtl Translucent_Glass_Tinted
+	Ns 43.2193
+	Ni 1.5000
+	d 0.4800
+	Tr 0.5200
+	Tf 0.4800 0.4800 0.4800 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0275 0.7882 0.9412
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Translucent_Glass_Tinted.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Translucent_Glass_Tinted.jpg
+
+newmtl Carrera_Marble
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8118 0.8118 0.8118
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Carrera_Marble.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Carrera_Marble.jpg
+
+newmtl Color_M07
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2275 0.2275 0.2275
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl M_0134_DimGray
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.4118 0.4118 0.4118
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Color_A05
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 0.0000 0.0000
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Wood_Veneer_02
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7451 0.5020 0.3569
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Wood_Veneer_02.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Wood_Veneer_02.jpg
+
+newmtl Pavers_Modular_Brick
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6863 0.5608 0.5059
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Pavers_Modular_Brick.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Pavers_Modular_Brick.jpg
+
+newmtl Tile_Border_Travertine
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6275 0.5569 0.4392
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Tile_Border_Travertine.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Tile_Border_Travertine.jpg
+
+newmtl Color_M00
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Color_D08
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.4000 0.2980 0.0000
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Translucent_Glass_Blue
+	Ns 43.2193
+	Ni 1.5000
+	d 0.5000
+	Tr 0.5000
+	Tf 0.5000 0.5000 0.5000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.3922 0.5843 0.9294
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Wood_Floor_Light
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.6902 0.4980
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Wood_Floor_Light.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Wood_Floor_Light.jpg
+
+newmtl Metal_Corrugated_Shiny
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7569 0.7569 0.7569
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Metal_Corrugated_Shiny.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Metal_Corrugated_Shiny.jpg
+
+newmtl Metal_Steel_Textured
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.4157 0.4314 0.4824
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Metal_Steel_Textured.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Metal_Steel_Textured.jpg
+
+newmtl Color_B01
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 0.8471 0.8000
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl M_0037_SandyBrown
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.9569 0.6431 0.3765
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl M_0012_Bisque
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7373 0.6588 0.5686
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Brick_Tumbled
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5294 0.5176 0.5176
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Brick_Tumbled.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Brick_Tumbled.jpg
+
+newmtl Color_M09
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Asphalt_Stamped_Brick
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5843 0.5216 0.5255
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Asphalt_Stamped_Brick.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Asphalt_Stamped_Brick.jpg
+
+newmtl _Translucent_Glass_Tinted_1
+	Ns 43.2193
+	Ni 1.5000
+	d 0.4800
+	Tr 0.5200
+	Tf 0.4800 0.4800 0.4800 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0275 0.7882 0.9412
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\_Translucent_Glass_Tinted_1.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\_Translucent_Glass_Tinted_1.jpg
+
+newmtl Herringbone
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5098 0.5098 0.5098
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Herringbone.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Herringbone.jpg
+
+newmtl _Metal_Steel_Textured_1
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.4157 0.4314 0.4824
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\_Metal_Steel_Textured_1.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\_Metal_Steel_Textured_1.jpg
+
+newmtl _Metal_Corrugated_Shiny_1
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7569 0.7569 0.7569
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\_Metal_Corrugated_Shiny_1.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\_Metal_Corrugated_Shiny_1.jpg
+
+newmtl M_0078_DarkSlateGray
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1843 0.3098 0.3098
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Marble_Carrara_Floor_Tile
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8118 0.8235 0.8588
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Marble_Carrara_Floor_Tile.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Marble_Carrara_Floor_Tile.jpg
+
+newmtl Color_009
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Vegetation_Bark_Maple1
+	Ns 43.2193
+	Ni 1.5000
+	d 0.5400
+	Tr 0.4600
+	Tf 0.5400 0.5400 0.5400 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8902 0.7804 0.6000
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Vegetation_Bark_Maple1.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Vegetation_Bark_Maple1.jpg
+
+newmtl Brick_Antique_01
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5765 0.4118 0.2784
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Brick_Antique_01.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Brick_Antique_01.jpg
+
+newmtl Grass_Dark_Green
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.4157 0.6157 0.2157
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Grass_Dark_Green.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Grass_Dark_Green.jpg
+
+newmtl Pavers_with_Grass_Brick
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7333 0.7529 0.6902
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Pavers_with_Grass_Brick.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Pavers_with_Grass_Brick.jpg
+
+newmtl Concrete_Block_Retaining_Gray
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.4745 0.4745 0.4745
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Concrete_Block_Retaining_Gray.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Concrete_Block_Retaining_Gray.jpg
+
+newmtl Granite_Brown
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.4941 0.4078 0.3569
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Granite_Brown.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Granite_Brown.jpg
+
+newmtl Field_Rectangle_Tile
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7686 0.7412 0.7020
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Field_Rectangle_Tile.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Field_Rectangle_Tile.jpg
+
+newmtl Pavers_with_Grass_Herringbone
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7725 0.7882 0.7451
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Pavers_with_Grass_Herringbone.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Pavers_with_Grass_Herringbone.jpg
+
+newmtl Mosaic_Hexagonal_Tile
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6588 0.7608 0.8745
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Mosaic_Hexagonal_Tile.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Mosaic_Hexagonal_Tile.jpg
+
+newmtl Water_Dark_Blue
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0824 0.5647 0.7333
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Water_Dark_Blue.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Water_Dark_Blue.jpg
+
+newmtl Grass_Light_Green
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5412 0.6196 0.2706
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Grass_Light_Green.jpg
+	map_Kd E:\sathish\project\sketchup\Export file\new express Apart multi 7 final\Grass_Light_Green.jpg
+
+newmtl 01___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1804 0.9255 0.1412
+	Kd 0.1804 0.9255 0.1412
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
